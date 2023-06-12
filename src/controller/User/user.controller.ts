@@ -1,5 +1,5 @@
 import { Body, Controller, Post, Get } from "@nestjs/common";
-import UsuarioRepository from "./user.repository";
+import UsuarioRepository from "../user.repository";
 
 @Controller('/usuarios')
 export default class UsuarioController {
