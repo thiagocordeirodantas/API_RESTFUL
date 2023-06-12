@@ -5,6 +5,10 @@ export default class UsuarioRepository {
         this.usuarios.push(usuario)
         console.log(this.usuarios);
     }
+
+    async listar(){
+        return this.usuarios;
+    }
 }
 
 
